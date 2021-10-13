@@ -69,7 +69,17 @@ a:hover {
   color: black !important;
   background-color: #eae7c6 !important;
 }
+footer {
+  font-size: 25px;
+  color: #6f7880;
+  text-align: center;
+  font-weight: bold;
+}
 
+.material-icons{
+  color: #c37b89;
+  font-size: 25px !important;
+}
 @media screen and (max-width: 480px) {
   .left {
     display: flex;
