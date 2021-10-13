@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.booklist {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 2rem auto;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: start;
+}
+.book {
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+.book h4 {
+  color: #6f7880;
+  font-size: 1rem;
+  margin-top: 0.25rem;
+}
+.book img {
+  width: 70%;
+}
+
+button {
+  font-size: small;
+  font-weight: bolder;
+  padding: 5px 20px;
+  background-color: #c37b89;
+  color: white;
+  border: 2px solid white;
+  border-radius: 12%;
+  margin-top: 2%;
+}
+
+@media screen and (max-width: 480px) {
+  .booklist {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .book img {
+    width: 60%;
+  }
+}
