@@ -35,7 +35,7 @@ img {
 
 .right-col h1 {
   border: 2px solid;
-  padding: 2%;
+  padding: 2% 10%;
   text-align: center;
   border-radius: 1rem;
   font-size: 4rem;
