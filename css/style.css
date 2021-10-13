@@ -37,6 +37,7 @@ img {
   border: 2px solid;
   padding: 2%;
   text-align: center;
+  border-radius: 1rem;
   font-size: 4rem;
   font-family: "Lobster", cursive;
 }
